@@ -1,0 +1,25 @@
+name: AntiBlockDestroy
+version: '${project.version}'
+main: online.vivaseikatsu.stra.antiblockdestroy.AntiBlockDestroy
+api-version: 1.18
+
+commands:
+  antibd:
+    usage: /<command> [options]
+    description: ブロック破壊を防ぐプラグインです。
+
+
+permissions:
+  antiblockdestroy.*:
+    description: すべての機能を許可します。
+    default: false
+    children:
+      antiblockdestroy.reload: true
+
+  antiblockdestroy.reload:
+    description: config.ymlのリロードを許可します。
+    default: op
+
+
+
+

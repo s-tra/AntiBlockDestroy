@@ -1,0 +1,37 @@
+# ブロック破壊を無効化しない”例外”をワールドごとに設定できます。
+# ワールドは WorldName で指定してください。
+# [ワールド名の例]
+# world:
+# world_nether:
+
+# ”例外”は EntityType または Material で指定してください。
+# 注意: "BED" と "RESPAWN_ANCHOR" は区別されません。
+# [爆発するブロックの例]
+# - "BED"
+# - "RESPAWN_ANCHOR"
+# [爆発するエンティティの例]
+# - "CREEPER"
+# - "DRAGON_FIREBALL"
+# - "ENDER_CRYSTAL"
+# - "FIREBALL"
+# - "MINECART_TNT"
+# - "PRIMED_TNT"
+# - "WITHER_SKULL"
+# [ブロックを破壊するエンティティの例]
+# - "ENDER_DRAGON"
+# - "ENDERMAN"
+# - "RAVAGER"
+# - "WITHER"
+# - "ZOMBIE"
+# ALL と指定すると、あらゆる要因を”例外”として判断します。(バニラ通りの動作になります)
+# - "ALL"
+
+exceptions:
+  world:
+    - ""
+    - ""
+    - ""
+  world_nether:
+    - ""
+    - ""
+    - ""
