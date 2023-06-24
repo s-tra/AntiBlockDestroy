@@ -13,10 +13,6 @@ public final class AntiBlockDestroy extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
-        // listenerの処理を行うクラスを宣言
-        getServer().getPluginManager().registerEvents(new BlockDestroyListener(this),this);
 
         // config.ymlの準備
         // config.ymlがない場合はファイルを出力
